@@ -1,0 +1,29 @@
+/*common styles*/
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+/*nav related styles*/
+nav{
+    display: flex;
+}
+.nav-title {
+    color: blueviolet;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bolder;
+}
+.clipper{
+    font-weight: normal;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
