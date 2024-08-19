@@ -8,10 +8,19 @@ body {
 nav{
     display: flex;
 }
+.nav-logo{
+    margin-left: 40px;
+    margin-right: 40px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
 .nav-title {
-    color: blueviolet;
+    color: rgb(73, 39, 152);
     font-family: Open Sans;
     font-size: 35px;
+    margin-left: 10px;
     font-style: normal;
     font-weight: bolder;
 }
@@ -26,4 +35,32 @@ nav > ul{
 nav li{
     list-style: none;
     margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: rgb(73, 39, 152);
+
+}
+
+.btn-primary p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
